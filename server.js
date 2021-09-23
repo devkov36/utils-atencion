@@ -5,11 +5,6 @@ const GoogleMapsAPI = require('googlemaps');
 const StaticMaps = require('staticmaps');
 require('dotenv').config();
 
-// Use
-app.use(cors({
-    origin: '*'
-}));
-
 // Parsing json
 app.use(express.json());
 
